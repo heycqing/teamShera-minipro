@@ -10,31 +10,45 @@
         </view> 
     </view>
     <image class='bg' src="/static/imgs/section.jpg"/>
+
     <view class='userInfo'>
       <view class='title'>
-        <icon class=""/>
+        <image class='title-icon' src='/static/imgs/check.png' />
         <text >{{userInfoTest.success}}</text>
       </view>
       <view class='person'>
 
         <view >
-          <open-data class='person-header' type="userAvatarUrl"></open-data>
+          <view class='person-header'>
+            <open-data type="userAvatarUrl"></open-data>
+          </view>
           <open-data class='person-name' type="userNickName"></open-data>
         </view>
-        <view >
-          <open-data class='person-header' type="userAvatarUrl"></open-data>
+
+         <view >
+          <view class='person-header'>
+            <open-data type="userAvatarUrl"></open-data>
+          </view>
           <open-data class='person-name' type="userNickName"></open-data>
         </view>
-        <view >
-          <open-data class='person-header' type="userAvatarUrl"></open-data>
+
+       <view >
+          <view class='person-header'>
+            <open-data type="userAvatarUrl"></open-data>
+          </view>
           <open-data class='person-name' type="userNickName"></open-data>
-        </view>
-        <view >
-          <open-data class='person-header' type="userAvatarUrl"></open-data>
+      </view>
+       
+       <view >
+          <view class='person-header'>
+            <open-data type="userAvatarUrl"></open-data>
+          </view>
           <open-data class='person-name' type="userNickName"></open-data>
-        </view>
-        <view >
-          <open-data class='person-header' type="userAvatarUrl"></open-data>
+      </view>
+       <view >
+          <view class='person-header'>
+            <open-data type="userAvatarUrl"></open-data>
+          </view>
           <open-data class='person-name' type="userNickName"></open-data>
         </view>
         <!-- person -->

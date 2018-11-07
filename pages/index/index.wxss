@@ -10,7 +10,7 @@
 .header{
   color:#efdba4;
   font-size: 76rpx;
-  padding-bottom:50rpx;
+  padding-bottom:20rpx;
   text-align: center;
 }
 .header > .header-title{
@@ -28,10 +28,37 @@
 
 }
 /* useInfo */
+.userInfo{
+  background-color:#383c49;
+  border-radius: 26rpx;
+  /* border:1rpx solid #fff; */
+  padding-bottom:40rpx;
+  padding-left:40rpx;
+  padding-right:40rpx;
+}
 .title{
   color:#efdba4;
   padding:20rpx 0;
-  padding-left:8rpx;
+  background-color:#3d414e;
+  width:112.5%;
+  position:relative;
+  margin-left:-6%;
+  border-top-left-radius: 26rpx;
+  border-top-right-radius: 26rpx;
+  padding-bottom:0;
+  margin-bottom:20rpx;
+}
+.title-icon{
+  width:50rpx;
+  height:50rpx;
+  padding-left:15rpx;
+}
+.title text{
+  font-size:30rpx;
+  margin-left:12rpx;
+  position:relative;
+  top:-12rpx;
+
 }
 /* person */
 .person{
@@ -40,15 +67,14 @@
 .person>view{
   width:20%;
   padding:0 8rpx;
- 
-
 }
 .person-header{
-  height:120rpx;
-  width:120rpx;
+  height:100rpx;
+  width:100rpx;
   display:block;
-  border:1px solid red;
-  border-radius:20rpx;
+  border-radius: 50%;
+  border: 2px solid #383c49;
+  overflow: hidden;
 }
 .person-name{
   color:#eee;
