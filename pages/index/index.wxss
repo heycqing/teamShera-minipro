@@ -1,0 +1,61 @@
+/**index.wxss**/
+.container{
+  
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif; 
+
+  background-color:#292c3e;
+  padding-top:50rpx;
+  padding-bottom:70rpx;
+}
+.header{
+  color:#efdba4;
+  font-size: 76rpx;
+  padding-bottom:50rpx;
+  text-align: center;
+}
+.header > .header-title{
+  padding-bottom:16rpx;
+}
+.header > .header-sub{
+  font-size: 28rpx;
+}
+.header-sub > text{
+  padding:0 6rpx;
+}
+.bg{
+  width:100%;
+  height:660rpx;
+
+}
+/* useInfo */
+.title{
+  color:#efdba4;
+  padding:20rpx 0;
+  padding-left:8rpx;
+}
+/* person */
+.person{
+  display: flex;
+}
+.person>view{
+  width:20%;
+  padding:0 8rpx;
+ 
+
+}
+.person-header{
+  height:120rpx;
+  width:120rpx;
+  display:block;
+  border:1px solid red;
+  border-radius:20rpx;
+}
+.person-name{
+  color:#eee;
+  display: block;
+  padding-top: 10rpx;
+  font-size:24rpx;
+  text-align: center;
+  overflow: hidden;
+}
+/* anim */
